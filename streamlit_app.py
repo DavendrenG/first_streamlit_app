@@ -45,3 +45,5 @@ fruityvice_normalized = pandas.json_normalize(fruityvice_response.json())
 
 # push it out as a dataframe in a table
 streamlit.dataframe(fruityvice_normalized)
+
+#test
